@@ -13,5 +13,5 @@ app.use("/docs", swaggerUi.serve, swaggerUi.setup(require("./docs/swagger"))); /
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  console.log(`Server running on https://saavanapiformusic.herokuapp.com/${port}`);
 });
