@@ -5,6 +5,6 @@ module.exports = async (req, res) => {
     alive: true,
     made_by: "https://github.com/tuhinpal",
     version: package.version,
-    docs: `${process.env.APP_URL || "https://saavanapiformusic.herokuapp.com/"}/docs`,
+    docs: `${process.env.APP_URL || "saavanapiformusic.herokuapp.com"}/docs`,
   });
 };
