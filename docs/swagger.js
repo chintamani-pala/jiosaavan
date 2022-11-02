@@ -5,7 +5,7 @@ module.exports = {
     description: "Unofficial JioSaavn API Written in Javascript",
     version: "3.0.0",
   },
-  host: process.env.APP_URL?.split("://")[1] || "localhost:3000",
+  host: process.env.APP_URL?.split("://")[1] || "saavanapiformusic.herokuapp.com",
   basePath: "/",
   license: {
     name: "Apache 2.0",
